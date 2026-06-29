@@ -1,0 +1,12 @@
+{
+  "LOCAL_PUSH_1_TITLE": "Your pack stamina has recovered!",
+  "LOCAL_PUSH_2_CHANNEL_DESC": "We’ll notify you when your wonder stamina has fully recovered.",
+  "LocalizeSystemLocalPush": "\u0010",
+  "LocalizeSystemLocalPush_plural": "\u0011",
+  "LOCAL_PUSH_1_CHANNEL_NAME": "Pack stamina recovered.",
+  "LOCAL_PUSH_1_CHANNEL_DESC": "We’ll notify you when your pack stamina has recovered to 1.",
+  "LOCAL_PUSH_2_TITLE": "Your wonder stamina has fully recovered!",
+  "LOCAL_PUSH_2_BODY": "Would you like to look at wonder picks?",
+  "LOCAL_PUSH_1_BODY": "You can open a booster pack!",
+  "LOCAL_PUSH_2_CHANNEL_NAME": "Wonder stamina fully recovered."
+}
