@@ -45,6 +45,7 @@ By default, the entries in the output file are listed in the order in which they
 > Directory processing is not recursive. To process extracted locale folders in one go, run one of the following commands:
 > * Linux/macOS: `for d in */; do ./kvrom2json "${d%/}"; done`
 > * Windows: `for /D %D in (*) do kvrom2json.exe "%D"`
+>
 > This is especially useful if you use AssetRipper or followed the previous AssetStudioMod tip.
 
 ## Building
