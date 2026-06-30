@@ -1,6 +1,6 @@
 # Third Party Notices and Information
 ## zlib
-The downloadable static release builds of this program are statically linked with the [zlib library](https://zlib.net), distributed under the [zlib License](https://opensource.org/license/zlib):
+Static builds of this software are statically linked with the [zlib library](https://zlib.net), distributed under the [zlib License](https://opensource.org/license/zlib):
 
 ```
 Copyright notice:
