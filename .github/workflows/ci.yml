@@ -14,6 +14,7 @@ on:
       - "LICENSE"
       - "Makefile"
       - "README.md"
+      - "THIRD_PARTY_NOTICES.md"
   pull_request:
     branches: [ "main" ]
     paths:
@@ -23,6 +24,7 @@ on:
       - "LICENSE"
       - "Makefile"
       - "README.md"
+      - "THIRD_PARTY_NOTICES.md"
   workflow_dispatch:
 
 concurrency:
@@ -100,6 +102,7 @@ jobs:
             build/${{ env.TARGET }}${{ matrix.extension }}
             LICENSE
             README.md
+            THIRD_PARTY_NOTICES.md
 
           if-no-files-found: error
           retention-days: 1
@@ -130,8 +133,9 @@ jobs:
             mv "${dir}/build/${{ env.TARGET }}${ext}" "pkg/${suffix}/"
             mv "${dir}/LICENSE"                       "pkg/${suffix}/"
             mv "${dir}/README.md"                     "pkg/${suffix}/"
+            mv "${dir}/THIRD_PARTY_NOTICES.md"        "pkg/${suffix}/"
 
-            (cd "pkg/${suffix}" && zip "../../${{ env.TARGET }}-${suffix}.zip" "${{ env.TARGET }}${ext}" LICENSE README.md)
+            (cd "pkg/${suffix}" && zip "../../${{ env.TARGET }}-${suffix}.zip" "${{ env.TARGET }}${ext}" LICENSE README.md THIRD_PARTY_NOTICES.md)
           done
 
       - name: Update latest release

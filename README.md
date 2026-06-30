@@ -72,3 +72,5 @@ By default, the entries in the output file are listed in the order in which they
 
 ## License
 kvrom2json is free software. You can redistribute it and/or modify it under the [terms of the Expat License](/LICENSE) as published by the Massachusetts Institute of Technology.
+
+This project uses third-party libraries, which remain subject to their respective original licenses. See [THIRD_PARTY_NOTICES.md](/THIRD_PARTY_NOTICES.md) for details.
